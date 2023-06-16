@@ -4,14 +4,14 @@
   margin: 0%;
   padding: 0%s;
 }
-.navbar-nav.ml-auto {
+ .navbar-nav.ml-auto {
   position: absolute;
-  right: 55px;
-}
-.navbar-nav.mr-auto {
+  right: 6px;
+} 
+ .navbar-nav.mr-auto {
   position: relative;
   right: 52px;
-}
+} 
 .main {
   background: url("/images/prayer-man.png");
   background-position: top top;
@@ -32,7 +32,10 @@
 }
 
 .navbar li img {
+  position: relative;
+  
 }
+
 .navbar li a {
   text-decoration: none;
   color: black;
@@ -115,13 +118,6 @@
   width: 66%;
   margin-top: 222px;
 }
-
-/* .second-image {
-  position: relative;
-  left: 66%;
-  top: -160px;
-  width: 300px;
-  opacity: 1; */
 
 .first-image {
   position: relative;
@@ -438,4 +434,9 @@
 .copyright {
   display: flex;
   justify-content: space-between;
+}
+
+.clr a {
+  color: #fff;
+  text-decoration: none;
 }
