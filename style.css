@@ -115,7 +115,6 @@
   position: relative;
 }
 .second-image {
-  width: 66%;
   margin-top: 222px;
 }
 
@@ -377,10 +376,12 @@
 }
 .another-center {
   position: relative;
-  top: 376px;
+  top: 206px;
+  
 }
 .another-center h1 {
   font-size: 50px;
+  
 }
 .crds {
   position: relative;
@@ -439,4 +440,9 @@
 .clr a {
   color: #fff;
   text-decoration: none;
+}
+
+.button-x {
+  position: relative;
+  bottom: 30px;
 }
