@@ -446,3 +446,14 @@
   position: relative;
   bottom: 30px;
 }
+.small-size :last-child{
+  width: 60px;
+  position: relative;
+  bottom: 17px;
+  left: 170px
+} 
+.rotate {
+  width: 100%;
+ rotate: 50%;
+  
+}
