@@ -16,19 +16,21 @@
   background: url("/images/prayer-man.png");
   background-position: top top;
   background-size: cover;
-  height: 160vh;
+  height: auto;
   position: relative;
   overflow: hidden;
+  opacity: 0.50;
+  background-color: #ffff;
 }
 .conatiner {
   margin-top: 40px;
-  background-color: white;
-  opacity: 0.7;
-  height: 130vh;
+  
 }
 .navbar {
   display: flex;
   list-style: none;
+  position: relative;
+  left: 50px;
 }
 
 .navbar li img {
@@ -45,14 +47,14 @@
 }
 .navbar li a:hover {
   text-decoration: none;
-  font-weight: bold;
+  
   margin-left: 60px;
   border-color: blue;
   border-left: none;
   border-right: none;
   border-bottom: none;
   border-top: 3px solid blue;
-  padding: 23px 0px;
+ 
 }
 .navbar li a::after {
   text-decoration: none;
@@ -128,7 +130,7 @@
 
 .left-right {
   position: relative;
-  top: 10px;
+  top: -10px;
   right: -17%;
 }
 .left-right a {
@@ -455,5 +457,13 @@
 .rotate {
   width: 100%;
  rotate: 50%;
-  
+ rotate: 270deg;
+ position: relative;
+ bottom: 230px;
+ left: 200px; 
 }
+.center-this {
+  position: relative;
+  top: 380px;
+}
+/*  */
